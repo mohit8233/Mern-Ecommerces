@@ -19,6 +19,7 @@ import OrderDetails from "./pages/OrderDetails";
 import UserDashboard from "./pages/UserDashboard";
 import AdminDashboard from "./admin/AdminDashboard";
 import AdminOrders from "./admin/AdminOrders.jsx";
+import Profile from "./pages/Profile.jsx";
 const App = () => {
   return (
     <BrowserRouter>
@@ -37,7 +38,10 @@ const App = () => {
           path="/login"
           element={<Login />}
         />
-
+    <Route
+    path="/profile"
+    element={<Profile />}
+/>
         <Route
           path="/register"
           element={<Register />}

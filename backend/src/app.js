@@ -34,7 +34,7 @@ app.use(helmet());
 app.use(
     cors({
         origin:[ "http://localhost:5173",
-            "https://mern-ecommerces-ten.vercel.app/"],
+            "https://mern-ecommerces-ten.vercel.app"],
         credentials: true
     })
 );
